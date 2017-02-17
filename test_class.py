@@ -30,7 +30,7 @@ class TestClass():
 	def test_two(record_xml_property):
 		record_xml_property("example_key",1)
 		x = "hello"
-		assert hasattr(x,'check')
+		assert hasattr(x,'o')
 
 if __name__ == '__main__':
 	pytest.main('test_class.py')
