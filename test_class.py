@@ -27,7 +27,8 @@ class TestClass():
 		x = "this"
 		assert 'h' in x
 
-	def test_two(self):
+	def test_two(record_xml_property):
+		record_xml_property("example_key",1)
 		x = "hello"
 		assert hasattr(x,'check')
 
